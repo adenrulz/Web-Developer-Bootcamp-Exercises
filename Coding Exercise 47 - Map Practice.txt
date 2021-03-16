@@ -1,0 +1,7 @@
+function cleanNames(liste){
+    let mapPractice = liste.map(function(list){
+        return list.trim();
+        
+    });
+    return mapPractice;
+}

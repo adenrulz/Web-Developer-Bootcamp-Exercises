@@ -1,0 +1,7 @@
+// DEFINE YOUR FUNCTION BELOW:
+function lastElement(test){
+    if (test.length === 0)
+        return null;
+    else
+        return test[test.length - 1];
+}

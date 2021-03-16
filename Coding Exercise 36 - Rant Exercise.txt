@@ -1,0 +1,7 @@
+// DEFINE YOUR FUNCTION:
+function rant(test){
+    for(let i = 0; i < 3; i++){
+        console.log(test.toUpperCase());
+    }
+}
+rant("I hate bees");

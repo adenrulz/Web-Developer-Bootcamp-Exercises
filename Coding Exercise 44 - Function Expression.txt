@@ -1,0 +1,3 @@
+const square = function (a){
+    return a * a;
+}

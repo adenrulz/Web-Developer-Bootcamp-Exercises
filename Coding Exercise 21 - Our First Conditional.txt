@@ -1,0 +1,9 @@
+function isEven(num){
+    //WRITE YOUR CODE BETWEEN THIS LINE: ↓ ↓ ↓ ↓ 
+   if (num % 2 === 0)
+        console.log("even");
+  
+    //AND THIS LINE ↑↑↑↑↑
+}
+
+//if num is an even number, print out "even".&nbsp; Don't do anything if num is an odd number.

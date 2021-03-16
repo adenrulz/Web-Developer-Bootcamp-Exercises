@@ -1,0 +1,6 @@
+.square{
+    background-color: red;
+}
+.square:nth-of-type(2n){
+    background-color: black;
+}

@@ -1,0 +1,7 @@
+<form>
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="username">
+    <label for="pass">Password</label>
+    <input type="password" id="pass" placeholder="password">
+    <button>Register</button>
+</form>
