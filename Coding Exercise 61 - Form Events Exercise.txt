@@ -1,0 +1,15 @@
+const form = document.querySelector('form');
+const product = document.querySelector('#product');
+const qty = document.querySelector('#qty');
+
+const list = document.querySelector('#list');
+
+form.addEventListener('submit', (e) => {
+   e.preventDefault();
+   const listItem = document.createElement('li');
+   listItem.innerHTML = `${product.value} - ${qty.value} `;
+   list.appendChild(listItem);
+   qty.value = "";
+   product.value = "";
+        
+});
