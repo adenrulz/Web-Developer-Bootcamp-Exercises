@@ -1,0 +1,9 @@
+const textInput = document.querySelector('input');
+const h1 = document.querySelector('h1');
+
+textInput.addEventListener('input', () => {
+    h1.innerHTML =  `Welcome, ${textInput.value}`;
+    if(textInput.value === ''){
+        h1.innerHTML = 'Enter Your Username';
+    }
+})
